@@ -19,7 +19,10 @@ s.requires_arc = true
 s.version = "0.1.0"
 
 # 3
-s.license = { :type => 'MIT', :file => 'NCS-LICENSE.txt' }
+s.license = { :type => 'PRIVATE', :text => <<-LICENSE
+                   Copyright 2021 G-Matrix Systems
+                 LICENSE
+               }
 #
 
 # 4 - Replace with your name and e-mail address
